@@ -1,4 +1,4 @@
-vgsales <- read.csv("D:/BF/videogamesales/vgsales.csv", stringsAsFactors=FALSE)
+vgsales <- read.csv("D:/BF/videogamesales/vgsales_Final.csv", stringsAsFactors=FALSE)
 View(vgsales)
 vgsales_df<-as.data.frame(vgsales)
 View(vgsales_df)
@@ -58,8 +58,8 @@ na_snaive <- snaive(action_train[,'NA_Sales'],h=120)
 
 autoplot(action_train[,"NA_Sales"])+
  autolayer(na_mean,series="Mean", PI=FALSE) +
-  autolayer(na_naive,series="Naïve", PI=FALSE) +
-  autolayer(na_snaive,series="Seasonal naïve", PI=FALSE) +
+  autolayer(na_naive,series="NaÃ¯ve", PI=FALSE) +
+  autolayer(na_snaive,series="Seasonal naÃ¯ve", PI=FALSE) +
   ggtitle("NA Sales")+
   xlab("Year")+
   ylab("Sales") +
@@ -152,9 +152,9 @@ autoplot(na_sales1)+
   autolayer(na_salesfit1,
             series="Mean", PI=FALSE) +
   autolayer(na_salesfit2,
-            series="Naïve", PI=FALSE) +
+            series="NaÃ¯ve", PI=FALSE) +
   autolayer(na_salesfit3,
-            series="Seasonal naïve", PI=FALSE) +
+            series="Seasonal naÃ¯ve", PI=FALSE) +
   ggtitle("NA Sales")+
   xlab("Year")+
   ylab("Sales") +
