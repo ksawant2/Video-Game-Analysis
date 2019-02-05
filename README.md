@@ -1,4 +1,4 @@
-# Data Analysis project in R - Video-Game-Analysis
+# Data Analysis project in R - Video-Game-Sales
 
 It is a time series dataset with data recorded from year 1980 to 2017. This dataset contains a list of video games with sales greater than 100,000 copies.Total 16598 entries.Here we have tried listing the variables, their unique values and the questions that can be answered after the analysis of the dataset.
 Following are the variables in the dataset :-  
