@@ -27,3 +27,6 @@ Other_Sales - Sales in the rest of the world (Unique Values - 0 - 10.6, Values a
 Global_Sales - Total worldwide sales.(Unique Values - 0.01 - 82.7, Values are in Millions)
 
 Categorical questions related to every country, example: For North America, which platform gained the highest sales?
+
+
+DataSet:https://www.kaggle.com/gregorut/videogamesales
